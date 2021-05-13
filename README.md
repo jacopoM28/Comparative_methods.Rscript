@@ -41,3 +41,7 @@ summarizing the results.
 
 Usefull to calculates the imapact of topological uncertainty in model
 parameters (**transition rates** and **AICc score**)
+
+   - **Branch\_LengthConverter.R**
+
+Script usefull to convert branches of a tree to reflect substitution rates. It requires a reference time tree were branches are proportional to time. 
