@@ -45,3 +45,5 @@ parameters (**transition rates** and **AICc score**)
    - **Branch\_LengthConverter.R**
 
 Script usefull to convert branches of a tree to reflect substitution rates. It requires a reference time tree were branches are proportional to time. 
+
+**MultiState\_Sensitivity.R** and **Loss.Aquisitions\_range.function.R** have been used in Giobbe Forni, Jacopo Martelossi, Pablo Valero, Frank H Hennemann, Oskar Conle, Andrea Luchetti, Barbara Mantovani, Macroevolutionary Analyses Provide New Evidence of Phasmid Wings Evolution as a Reversible Process, Systematic Biology, 2022;, syac038, [https://doi.org/10.1093/sysbio/syac038](https://academic.oup.com/sysbio/advance-article-abstract/doi/10.1093/sysbio/syac038/6605864)
