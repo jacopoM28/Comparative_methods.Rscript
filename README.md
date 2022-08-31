@@ -1,7 +1,7 @@
 README
 ================
 
-## Set of R scripts which can be usefull in philogenetic comparative analyses
+## Set of R scripts useful in philogenetic comparative analyses
 
 > It is necessary to install the following libraries: phytools, geiger
 > and ape
