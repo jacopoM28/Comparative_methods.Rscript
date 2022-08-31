@@ -8,7 +8,7 @@ README
 
   - **Loss.Aquisitions\_range.function.R**
 
-It calculates the number of transition events between a binary character
+It calculates the number of transition events between the two states of a binary character
 on the basis of a range of rates in which the probability of
 re-acquiring the “complex” character progressively decreases with
 respect to the probability of loss it. It allows to consider also a
@@ -18,8 +18,7 @@ Useful to find the probability treshold value after which there are no
 more re-acquisition events.
 
 Since it uses the make.simmap function from the Phytools package it can
-also menage a set of trees and/or a user-specified number of
-simulations.
+also be used on a set of trees and/or for N simulations simulations.
 
 **Arguments:**  
 1\. **tree** = phylogenetic tree.  
@@ -39,12 +38,12 @@ It loops the fitDiscrete function from the “geiger” package for a
 multi-state character through a set of trees using an ARD model and
 summarizing the results.
 
-Usefull to calculates the imapact of topological uncertainty in model
+Useful to calculates the imapact of topological uncertainty in model
 parameters (**transition rates** and **AICc score**)
 
    - **Branch\_LengthConverter.R**
 
-Script usefull to convert branches of a tree to reflect substitution rates. It requires a reference time tree were branches are proportional to time. 
+Script useful to convert branches of a tree to reflect substitution rates. It requires a reference time tree were branches are proportional to time. 
 
 **MultiState\_Sensitivity.R** and **Loss.Aquisitions\_range.function.R** have been used in :
 
